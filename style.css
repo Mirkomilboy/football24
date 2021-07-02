@@ -195,7 +195,7 @@ body {
     max-width: 480px;
     width: 100%;
     z-index: 99999;
-    /* bottom: 0; */
+    bottom: 0;
     display: flex;
     background: #6AAA3B;
     border-bottom: 4px solid #4b8025;
