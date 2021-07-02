@@ -99,10 +99,10 @@ body {
 }
 
 .empty {
-    flex: 0 0 10px;
+    flex: 0 0 6px;
     height: 19px;
     border-radius: 3px;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .green {
@@ -132,9 +132,9 @@ body {
 .time,
 .number {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 13px;
     background: rgba(47, 77, 137, 0.1);
-    flex: 0 0 50px;
+    flex: 0 0 45px;
     line-height: 32px;
     text-align: center;
 }
@@ -214,7 +214,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 .footer div:not(:last-child) {
@@ -228,4 +228,5 @@ body {
 .footer p {
     color: #fff;
     padding-top: 4px;
+    font-size: 12px;
 }
