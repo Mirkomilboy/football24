@@ -78,6 +78,11 @@ body {
     width: 100%;
 }
 
+.content a {
+    display: block;
+    text-decoration: none;
+}
+
 .content h1 {
     font-size: 17px;
     font-weight: 700;
@@ -90,8 +95,6 @@ body {
     display: flex;
     align-items: center;
     height: 32px;
-    /* white-space: nowrap; */
-    /* overflow-x: scroll; */
 }
 
 .bg-bold {
@@ -137,6 +140,7 @@ body {
     flex: 0 0 45px;
     line-height: 32px;
     text-align: center;
+    color: #444C58;
 }
 
 .team-name1 {
@@ -150,6 +154,36 @@ body {
     text-overflow: ellipsis;
     flex: 1;
     padding: 0 10px;
+    color: #444C58;
+}
+
+.highlighted {
+    display: flex;
+    align-items: center;
+}
+
+.highlighted-team {
+    padding: 3px 4px;
+    background: #a2abb4;
+    border-radius: 4px;
+    color: white;
+    margin-right: 4px;
+    color: white;
+}
+
+.soccer-ball {
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    padding: 1px;
+    display: inline-block;
+}
+
+.soccer-ball img {
+    width: 100%;
+    height: 100%;
 }
 
 .scores {
